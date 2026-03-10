@@ -8,7 +8,7 @@ const About = () => {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   const highlights = [
-    { icon: Briefcase, label: "SDLC Ownership", desc: "Managing full lifecycle from documentation to deployment" },
+    { icon: Briefcase, label: "Ai developer", desc: "Managing full lifecycle from documentation to deployment" },
     { icon: Users, label: "Stakeholder Alignment", desc: "Bridging business, product, engineering, and QA teams" },
     { icon: BarChart3, label: "KPI Driven", desc: "Using customer feedback and metrics to guide priorities" },
     { icon: Workflow, label: "Agile Delivery", desc: "Running Scrum ceremonies and sprint planning effectively" },
@@ -45,7 +45,7 @@ const About = () => {
               <div className="space-y-4 font-mono text-sm leading-relaxed">
                 <p className="text-muted-foreground">
                   <span className="text-primary"># </span>
-                  <span className="text-foreground font-semibold">Hello, I'm Najam Ali Abass</span>
+                  <span className="text-foreground font-semibold">Hello, Muhammad Awais</span>
                 </p>
                 <p className="text-muted-foreground">
                   Project management professional with 2+ years of experience supporting

@@ -14,13 +14,13 @@ export interface Project {
 export const projects: Project[] = [
   {
     id: 1,
-    title: "ai-code-reviewer",
-    description: "An intelligent code review tool powered by machine learning that analyzes pull requests and suggests improvements.",
-    language: "TypeScript",
+    title: "Twitter Sentiment Analysis",
+    description: "An intelligent model that classify twit as positive or negative",
+    language: "Python",
     languageColor: "hsl(212, 92%, 67%)",
     stars: 1243,
     forks: 189,
-    tags: ["AI", "DevTools", "TypeScript"],
+    tags: ["AI", "DevTools", "Python"],
     link: "#",
   },
   {
